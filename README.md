@@ -1,4 +1,4 @@
-Custom Gen-AI workshop
+Custom Gen-AI workshop:
 
 installation steps
 $ python -m venv .venv

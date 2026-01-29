@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>GraphRAG SOP Chat</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 40px;
+    }
+    #chat {
+      border: 1px solid #ccc;
+      padding: 10px;
+      height: 400px;
+      overflow-y: auto;
+      margin-bottom: 10px;
+    }
+    .user { color: blue; margin: 6px 0; }
+    .bot { color: green; margin: 6px 0; }
+    .small { color: #666; font-size: 12px; }
+  </style>
+</head>
+
+<body>
+  <h2>SOP GraphRAG Chatbot</h2>
+
+  <input type="file" id="pdfFile" />
+  <button onclick="uploadPDF()">Upload PDF</button>
+
+  <p id="docInfo" class="small"></p>
+
+  <div id="chat"></div>
+
+  <input type="text" id="question" placeholder="Ask a question..." style="width:80%;" />
+  <button onclick="sendQuestion()">Send</button>
+
+  <script src="app.js"></script>
+</body>
+</html>

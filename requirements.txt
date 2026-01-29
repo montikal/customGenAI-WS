@@ -1,0 +1,14 @@
+fastapi
+uvicorn
+python-multipart
+
+pymupdf
+chromadb
+sentence-transformers
+
+neo4j
+
+torch
+transformers
+
+numpy
